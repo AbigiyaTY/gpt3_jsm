@@ -1,9 +1,28 @@
-import logo from './logo.svg';
+import React from "react";
+import Footer from './containers/Footer/Footer';
+import Blog from './containers/Blog/Blog';
+import Possibility from './containers/Possibility/Possibility';
+import Feature from './containers/Feature/Feature';
+import Header from './containers/Header/Header';
+import Brand from './components/Brand/Brand';
+import CTA from './components/CTA/CTA';
+import Navbar from './components/Navbar/Navbar';
+import GPT from './containers/GPT/GPT'
 
-function App() {
+const  App = () =>{
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <div className="gradient_bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand /> 
+      <GPT />
+      <Feature />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
     </div>
   );
 }
