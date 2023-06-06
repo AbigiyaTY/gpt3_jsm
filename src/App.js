@@ -8,11 +8,12 @@ import Brand from './components/Brand/Brand';
 import CTA from './components/CTA/CTA';
 import Navbar from './components/Navbar/Navbar';
 import GPT from './containers/GPT/GPT'
+import './App.css'
 
 const  App = () =>{
   return (
     <div className="App">
-      <div className="gradient_bg">
+      <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
