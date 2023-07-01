@@ -2,13 +2,14 @@ import React from "react";
 import Footer from './containers/Footer/Footer';
 import Blog from './containers/Blog/Blog';
 import Possibility from './containers/Possibility/Possibility';
-import Feature from './containers/Feature/Feature';
+import Features from "./containers/Features/Features";
 import Header from './containers/Header/Header';
 import Brand from './components/Brand/Brand';
 import CTA from './components/CTA/CTA';
 import Navbar from './components/Navbar/Navbar';
 import GPT from './containers/GPT/GPT'
 import './App.css'
+
 
 const  App = () =>{
   return (
@@ -19,7 +20,7 @@ const  App = () =>{
       </div>
       <Brand /> 
       <GPT />
-      <Feature />
+      <Features />
       <Possibility />
       <CTA />
       <Blog />
