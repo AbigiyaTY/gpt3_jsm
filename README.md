@@ -27,6 +27,8 @@
 
 GPT-3 is a website that leverages the power of GPT-3, an advanced language model, based on the Figma design provided. The website is built using React.js, a popular JavaScript library for building user interfaces.
 
+![image](https://github.com/AbigiyaTY/gpt3_jsm/assets/98043302/da5c0da0-d8c5-4eb9-9dd9-a1449eb418ee)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -59,7 +61,7 @@ GPT-3 is a website that leverages the power of GPT-3, an advanced language model
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://tourmaline-froyo-da3048.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
